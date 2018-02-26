@@ -1,0 +1,6 @@
+A. HTML: It is a language that is used to created website.
+B. CSS: It is a stylesheet language used to determine how HTML element will be displayed on the web/screen.
+C. Javascript: It is a scripting language is used to enhance web pages by making it interactive.
+D. HTTP: It is a set of rules that allow users on the Web to exchange information with each other.
+E. HTML5: This is the latest version of HTML, it can created a web application faster.
+F. DHTML: It is a combination of HTML, Javascript, CSS which is used to create dynamic website.

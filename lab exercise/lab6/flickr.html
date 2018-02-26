@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery.getJSON demo</title>
+  <style>
+  body{
+    background-color: #1C1C1C;
+  }
+  img {
+    height: 15em;
+    width: 28vw;
+    margin-left: 1.5vw;
+    margin-bottom: 1.5vh;
+  }
+  #images{
+    text-align: center;
+  }
+
+  #button{
+    text-align: center;
+    margin: 1em 1em 1em 1em;
+  }
+  #btn {
+  background: #5882FA;
+  background-image: -webkit-linear-gradient(top, #5882FA, #2980b9);
+  background-image: -moz-linear-gradient(top, #5882FA, #2980b9);
+  background-image: -ms-linear-gradient(top, #5882FA, #2980b9);
+  background-image: -o-linear-gradient(top, #5882FA, #2980b9);
+  background-image: linear-gradient(to bottom, #5882FA, #2980b9);
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 1em;
+  padding: 8px 16px 8px 16px;
+  text-decoration: none;
+  }
+
+  #btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  }
+  #input{
+    padding: 3px;
+    font-size: 16px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: 	#A0522D;
+    border-color: #8c7a81;
+    color: #ffffff;
+    font-weight: bold;
+    height: 26px;
+
+    }
+  @media only screen and (max-width: 650px){
+    img {
+      height: 15em;
+      width: 80vw;
+
+    }
+    #images{
+      text-align: center;
+    }
+
+    #button{
+      text-align: center;
+      margin: 1em 1em 1em 1em;
+    }
+  }
+
+
+  </style>
+  <script src="jquery-3.3.1.js"></script>
+</head>
+<body>
+  <div id="button">
+    <input type="text" id="input" value="">
+    <button id="btn" name="button" onclick="show()">Show</button>
+  </div>
+
+
+<div id="images"></div>
+
+
+
+<script src="flickr.js">
+
+</script>
+
+</body>
+</html>

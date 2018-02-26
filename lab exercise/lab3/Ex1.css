@@ -1,0 +1,17 @@
+#input{
+  width: 36em;
+  height: 2em;
+}
+#submit{
+  margin-top: 1em;
+  width: 36.3em;
+  height: 3em;
+}
+
+#output{
+  background-color: lightgray;
+  width: 30em;
+  margin-bottom: 2em;
+  border-radius: 0.5em 0.5em 0.5em 0.5em;
+  overflow: hidden;
+}

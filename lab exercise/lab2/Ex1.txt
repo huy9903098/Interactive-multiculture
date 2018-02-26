@@ -1,0 +1,12 @@
+What is the purpose of the RWD? Why it is used? How things are done
+before RWD? What is the difference?
+_ The purpose of the RWD is to help the website resize or adapt to different windows width, screen resolutions.
+_ It was used because it will increased traffics from mobile users, lower cost and website maintenance, adapt easily to any screen and provide better user experience.
+_ Before RWD, deifferent design are made for different device and screen resolution.
+How css media queries can help you building responsive web sites?
+_ css media queries will set up a breakpoint, when the condition is met, the website will change.
+Why to use em (font) based sizing for example margins?
+_ because em size is eual to the current font size which make it scalable.
+Article is already 7 years old, do we have any new technology which can
+be used to achieve same type of UI responsiveness as described in the
+article. Buzz words: (CSS Grid, Flexbox).

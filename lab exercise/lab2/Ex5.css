@@ -1,0 +1,33 @@
+#Heading{
+  text-align: center;
+}
+
+#Name-box{
+  border-radius: 3em 3em 3em 3em;
+  width: 10em;
+}
+
+#addperson{
+  border-radius: 2em 2em 2em 2em;
+  margin: 1em 1em 1em 1em;
+}
+
+body{
+  background-color: black;
+}
+
+.Names{
+  color: white;
+}
+#Names-input{
+  color: #00FFFF;
+}
+
+@media only screen and (max-width: 500px){
+  #add{
+    text-align: center;
+  }
+  #person{
+    text-align: center;
+  }
+}
